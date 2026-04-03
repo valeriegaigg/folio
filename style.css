@@ -129,15 +129,7 @@ footer{
     background-color: rgb(206, 159, 206);
 }
 
-@media (max-width: 700px) {
-    .prj{
-        flex-direction: column;
-    }
 
-    .resume{
-        margin-top: 1480px;
-    }
-}
 
 
 @keyframes ani-hero {
@@ -414,4 +406,34 @@ footer{
     background-blend-mode: overlay, normal, normal, normal, normal, normal, normal;
     will-change: transform, opacity;
     contain: paint
+}
+
+@media (max-width: 500px) {
+
+    #hero{
+        background-color: hsla(187, 91%, 14%, 1);
+        background-image: none;
+        animation: none;
+    }
+
+    nav a{
+        color: rgb(245, 226, 238);
+    }
+
+    .prj{
+        flex-direction: column;
+    }
+
+    .profile{
+        width: 80%;
+    }
+
+    .profilepic{
+        width: 250px;
+        height: 350px;
+    }
+
+    .resume{
+        margin-top: 1480px;
+    }
 }
