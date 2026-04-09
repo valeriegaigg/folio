@@ -183,6 +183,7 @@ form{
 }
 
 input, textarea{
+    color: rgb(250, 242, 242);
     width: 100%;
     margin: 10px 0px 15px 0px;
     padding: 5px;
@@ -191,6 +192,7 @@ input, textarea{
     background-color:  rgb(10, 75, 79);
 }
 input:focus, textarea:focus{
+     color: rgb(250, 242, 242);
     background-color: rgb(68, 115, 109);
 }
 input[type=submit]{
