@@ -3,11 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="site.js" defer></script>
-    <title>Document</title>
+    <title>Fittrack</title>
 </head>
-<body>
-    <h1>MVC project</h1>
+<body class="prj-body">
+    <nav>
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="index.html#resume">Resume</a>
+                <a href="index.html#contact">Contact</a>
+    </nav>
+    <h1>Fittrack Project</h1>
+    <p>Fittrack is a fictitious business website for users to begin their personalized fitness journey. As a self-guided project for my Web Development Capstone, I was placed on an Agile team with 3 other student developers. The team collaborated through many stages of project planning, development, and testing to bring this ASP.NET project to life over a 17 week period.</p><p>I focused mainly on front-end development for this project, while occasionally supporting where needed. The biggest takeaway from this experience was learning how to communicate and develop as a team, while keeping our project deadlines in mind.</p>
+    <div class="carousel">
+        <div class="group">
+            <div id="prj1" onclick="View(0)" class="card"><span hidden class="msg">click to close</span></div>
+            <div id="prj2" onclick="View(1)" class="card"><span hidden class="msg">click to close</span></div>
+            <div id="prj3" onclick="View(2)" class="card"><span hidden class="msg">click to close</span></div>
+            <div id="prj4" onclick="View(3)" class="card"><span hidden class="msg">click to close</span></div>
+        </div>
+        <div aria-hidden="true" class="group">
+           <div id="prj5" onclick="View(0)" class="card"><span hidden class="msg">click to close</span></div>
+           <div id="prj6" onclick="View(1)" class="card"><span hidden class="msg">click to close</span></div>
+            <div id="prj7" onclick="View(2)" class="card"><span hidden class="msg">click to close</span></div>
+            <div id="prj8" onclick="View(3)" class="card"><span hidden class="msg">click to close</span></div>
+        </div>
+    </div>
     <a href="index.html#projects">Back to projects</a>
 </body>
 </html>

@@ -15,8 +15,7 @@
                 <a href="#projects">Projects</a>
                 <a href="#resume">Resume</a>
                 <a href="#contact">Contact</a>
-                <a href="test.html">test</a>
-            </nav>
+        </nav>
         <div id="hero" class="hero"> 
         </div>
         <div class="profile">
@@ -33,46 +32,69 @@
             <div>
                 <h1>About Me</h1>
             <p>Hello! I am a student UX designer with a passion for the creative approach to web development. I focus on digital products that provide an exceptional customer experience. I'm happy to work on website redesigns, personal branding, and even full-stack projects. </p>
+            <p>This spring, I am looking forward to graduating from Fox Valley Technical College with my associate's degree in Web Design and Development.</p>
             </div>
-            <img />
+            <img src=""/>
         </div>
         <div id="projects" class="projects">
             <div class="prjshell">
                 <h1>My Projects</h1>
                 <div class="prj">
-                    <div id="prj1">fittrack</div>
-                    <div id="prj2">jt photo redesign</div>
-                    <div id="prj3">dvdcentral</div>
-                </div>
-                <div id="details">
-                    <div id="d-1">
-                        <h1>Fittrack - Agile Project</h1>
-                        <p>Fittrack is a fictitious business website for users to begin their personalized fitness journey. As a self-guided project for my Web Development Capstone, I was placed on an Agile team with 3 other student developers. The team collaborated through many stages of project planning, development, and testing during a 17 week period.</p><p>I focused mainly on front-end development for this project, while occasionally supporting where needed. The biggest takeaway from this experience was learning how to communicate and develop as a team, while keeping our project deadlines in mind.</p>
-                        <h3 class="close" onclick="">Back To Projects</h3>
+                    <div>
+                        <h2>Fittrack</h2>
+                        <img src="assets/splash-background.jpg" onclick="Redirect('fittrack.html')" width="100%" height="100%">
                     </div>
-                    <div id="d-2">
-                        <h1>Jennifer Tabbert Photography - Website Renovation</h1>
-                        <p>This project is a website redesign for a local small business photographer. After realizing how out of date the current website was, I decided to propose a new website to the business owner. After discussing places to improve this website, I drafted and presented the first set of wireframes. From here, I spent time making adjustments where needed, analyzing opportunities for SEO, and workly closely with the business owner to create an updated website. I used the Next.js framework, along with React components, to ensure overall website optimization. <br />
-                            <br /> This site is set to launch May 2026.</p>
-                        <h3 class="close" onclick="Close()">Close</h3>
+                    <div>
+                        <h2>JT Photography</h2>
+                        <img src="assets/jt7.jpg" onclick="Redirect('jtphoto.html')" width="100%" height="100%">
                     </div>
-                    <div id="d-3">
-                        <h1>DVD Central Project</h1>
-                        <p>DVD Central is a e-commerce website where customers can browse for and purchase movies. During my ASP.NET class, I created this website as part of the coursework. While it lacks aesthetics, I was able to learn the in's and out's of Model-View-Controller framework. I gained confidence in my back-end programming skills throughout the course of this 17 week project. I was also introduced to Azure Devops, where I learned and practiced using project management software.</p>
-                        <h3 class="close" onclick="Close()">Close</h3>
+                    <div>
+                        <h2>DVD Central</h2>
+                         <img src="assets/dvd.jpg" onclick="Redirect('dvdcentral.html')" width="100%" height="100%">
                     </div>
+                    
+                    
                 </div>
             </div>
         </div> 
         <div id="resume" class="resume">
-                <h1>My Experience</h1>
-                <div>resume</div>
+            <h1>My Experience</h1>
+            <div>
+                <img src="assets/ValerieGaigg_Resume.jpg" width="2550px" height="3300px" alt="not supported">
+                <br />
+                <a href="assets/ValerieGaigg_Resume.pdf" download>Download PDF</a>
+            </div>         
         </div>
         <div id="contact" class="contact">
-            <div>
-                <h1>Contact Me</h1>
+            <div class="contact-shell">
+                <h1>Let's Get in Touch</h1>
+                <p>Feel free to send a message below and I will reach out to you via email. Also, visit my LinkedIn profile <a href="https://www.linkedin.com/in/valerie-gaigg-608168354/">here</a>.</p>
+                
+                <form action="https://formspree.io/f/mbdpedko" method="post">
+
+                <label for="fname">First Name</label><br />
+                <input required type="text" id="fname" name="firstname"><br />
+
+                <label for="lname">Last Name</label><br />
+                 <input required type="text" id="lname" name="lastname"><br />
+
+                 <label for="lname">Your Email</label><br />
+                 <input required type="text" id="email" name="email"><br />
+
+                <label for="subject">Subject</label><br />
+                <input required type="text" id="subject" name="subject"><br />
+
+                <label for="message">Message</label><br />
+                <textarea required id="message" name="message" style="height:100px"></textarea><br />
+
+                <input onclick="Clear()" type="submit" value="Submit">
+                </form>
+            
             </div>
         </div>
+        <footer>
+                    &copy; Valerie Gaigg 2026
+            </footer>
     </main>
 </body>
 </html>
