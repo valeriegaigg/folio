@@ -644,13 +644,13 @@ footer{
     .about img{
         margin-top: 50px;
         width: 300px;
-        height: 350px;
+        height: 370px;
     
     }
    
     .prj{
         flex-direction: column;
-        margin-top: 90%;
+        margin-top: 40px;
     }
 
     .prj img{
@@ -664,22 +664,24 @@ footer{
     }
 
     .prjshell{
-    margin: 0px auto;
-    width: 80%;
+        margin: 0px auto;
+        
+        
     }
 
     .resume{
        height: auto;
     }
     .resume div{
-    width: 300px;
-    height: 350px;
-    background-color: pink;
-    margin: 20px auto 60px auto;
+        width: 100%;
+        margin: 20px auto 60px auto;
+    }
+    .resume img{
+        width: 100%;
     }
 
     .contact{
-        height: 600px;
+        height: auto;
     }
     .card{
         height: 200px;
