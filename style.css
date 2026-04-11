@@ -55,13 +55,14 @@ p{
 }
 
 .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -20px;
     width: 100%;
     height: 100vh;
 }
 .profile{
-    position: absolute;
-    top: 300px;
     color:rgb(250, 242, 242);
     display: flex;
     justify-content: center;
@@ -100,7 +101,7 @@ p{
 .about img{
    margin-top: 275px;
    width: 350px;
-   height: 400px;
+   height: 420px;
     
 }
 .about div{
