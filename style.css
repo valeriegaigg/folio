@@ -640,6 +640,7 @@ footer{
         align-items: center;
     }
     .about div{
+        width: 85%;
         padding-top: 5px;
     }
     .about img{
@@ -684,6 +685,11 @@ footer{
     .contact{
         height: auto;
     }
+
+    form{
+        width: 85%;
+    }
+
     .card{
         height: 200px;
     }
