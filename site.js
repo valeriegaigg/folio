@@ -4,25 +4,16 @@ const prj3 = document.getElementById('prj3');
 const card = document.getElementsByClassName('card');
 const msg = document.getElementsByClassName('msg');
 
+const fname = document.getElementById('fname');
+const lname = document.getElementById('lname');
+
 
 function Redirect(url){
     window.location.href = url;
 }
 
-// prj1.addEventListener('click', () => {
-//     window.location.href = "fittrack.html";
-// });
-// prj2.addEventListener('click', () => {
-//     window.location.href = "fittrack.html";
-// });
-// prj3.addEventListener('click', () => {
-//     window.location.href = "fittrack.html";
-// });
-    
-
-// function View(id){
-//         card[id].classList.toggle('view-card');
-//         msg[id].classList.toggle('close');
-// }
-
-
+window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
